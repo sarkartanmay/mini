@@ -1,37 +1,47 @@
 package tanmay.sarkar;
 
-import junit.framework.Test;
-import junit.framework.TestCase;
-import junit.framework.TestSuite;
+import org.testng.annotations.Test;
 
-/**
- * Unit test for simple App.
- */
 public class AppTest 
-    extends TestCase
 {
-    /**
-     * Create the test case
-     *
-     * @param testName name of the test case
-     */
-    public AppTest( String testName )
-    {
-        super( testName );
+    @Test
+	public void test1(){
+    	System.out.println(" Hello Test 1");
     }
-    /**
-     * @return the suite of tests being tested
-     */
-    public static Test suite()
-    {
-        return new TestSuite( AppTest.class );
+    @Test
+	public void test2(){
+    	System.out.println(" Hello Test 2");
     }
-
-    /**
-     * Rigourous Test :-)
-     */
-    public void testApp()
-    {
-        assertTrue( true );
+    @Test
+	public void test3(){
+    	System.out.println(" Hello Test 3");
+    }
+    @Test
+	public void test4(){
+    	System.out.println(" Hello Test 4");
+    }
+    @Test
+	public void test5(){
+    	System.out.println(" Hello Test 5");
+    }
+    @Test
+	public void test6(){
+    	System.out.println(" Hello Test 6");
+    }
+    @Test
+	public void test7(){
+    	System.out.println(" Hello Test 7");
+    }
+    @Test
+	public void test8(){
+    	System.out.println(" Hello Test 8");
+    }
+    @Test
+	public void test9(){
+    	System.out.println(" Hello Test 9");
+    }
+    @Test
+	public void test10(){
+    	System.out.println(" Hello Test 10");
     }
 }
