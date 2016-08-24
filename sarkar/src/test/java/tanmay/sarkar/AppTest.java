@@ -4,7 +4,11 @@ import org.testng.annotations.Test;
 
 public class AppTest 
 {
-    @Test
+	@Test
+	public void test0(){
+    	System.out.println(" Hello Test 0");
+    }
+	@Test
 	public void test1(){
     	System.out.println(" Hello Test 1");
     }
@@ -39,9 +43,5 @@ public class AppTest
     @Test
 	public void test9(){
     	System.out.println(" Hello Test 9");
-    }
-    @Test
-	public void test10(){
-    	System.out.println(" Hello Test 10");
-    }
+    }    
 }
