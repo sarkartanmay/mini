@@ -1,5 +1,6 @@
 package tanmay.sarkar;
 
+import tanmay.sarkar.Assert;
 import org.testng.annotations.Test;
 
 public class AppTest 
@@ -7,6 +8,15 @@ public class AppTest
 	@Test
 	public void test0(){
     	System.out.println(" Hello Test 0");
+    	Assert.assertIt("My testing msg ","hi", "hi");
+    	Assert.assertIt("My testing msg ","hi", "hi2");
+    	Assert.assertIt("My testing msg ","hi", "hi3");
+    	Assert.assertIt("My testing msg ","hi", "hi");
+    	Assert.assertIt("My testing msg ","hi", "hi5");
+    	Assert.assertIt("My testing msg ","hi", "hi");
+    	Assert.assertIt("My testing msg ","hi", "hi7");
+    	Assert.assertIt("My testing msg ","hi", "hi");
+    	Assert.assertIt("My testing msg ","hi", "hi9");
     }
 	@Test
 	public void test1(){
