@@ -17,6 +17,7 @@ public class AppTest
     	Assert.assertIt("My testing msg ","hi", "hi7");
     	Assert.assertIt("My testing msg ","hi", "hi");
     	Assert.assertIt("My testing msg ","hi", "hi9");
+    	System.out.println("This is sprint 9a code");
     }
 	@Test
 	public void test1(){
@@ -40,18 +41,19 @@ public class AppTest
     }
     @Test
 	public void test6(){
-    	System.out.println(" Hello Test 6");
+    	System.out.println(" Hello Test 6 with modified sprint 9a");
     }
     @Test
 	public void test7(){
     	System.out.println(" Hello Test 7");
     }
-    @Test
-	public void test8(){
-    	System.out.println(" Hello Test 8");
-    }
+    // removed a method in sprint9
     @Test
 	public void test9(){
     	System.out.println(" Hello Test 9");
-    }    
+    } 
+    @Test
+	public void test10(){
+    	System.out.println(" Hello Test 10 fro sprint9a");
+    } 
 }
