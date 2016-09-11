@@ -47,10 +47,7 @@ public class AppTest
 	public void test7(){
     	System.out.println(" Hello Test 7");
     }
-    @Test
-	public void test8(){
-    	System.out.println(" Hello Test 8");
-    }
+    // removed a method in sprint9
     @Test
 	public void test9(){
     	System.out.println(" Hello Test 9");
