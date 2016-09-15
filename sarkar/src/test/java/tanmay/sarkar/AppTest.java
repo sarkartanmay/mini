@@ -55,5 +55,5 @@ public class AppTest
     @Test
 	public void test10(){
     	System.out.println(" Hello Test 10 fro sprint9a");
-    } 
+    }
 }
